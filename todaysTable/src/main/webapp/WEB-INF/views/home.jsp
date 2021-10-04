@@ -38,7 +38,7 @@
       <!-- Navbar-->
       <nav class="navbar navbar-expand-lg fixed-top shadow navbar-light bg-white">
         <div class="container-fluid">
-          <div class="d-flex align-items-center"><a class="navbar-brand py-1" href="index.html"><img src="resources/img/logo.svg" alt="Directory logo"></a>
+          <div class="d-flex align-items-center"><a class="navbar-brand py-1" href="./"><img src="resources/img/logo.svg" alt="Directory logo"></a>
             <form class="form-inline d-none d-sm-flex" action="#" id="search">
               <div class="input-label-absolute input-label-absolute-left input-reset input-expand ml-lg-2 ml-xl-3"> 
                 <label class="label-absolute" for="search_search"><i class="fa fa-search"></i><span class="sr-only">What are you looking for?</span></label>
@@ -58,9 +58,9 @@
               </div>
             </form>
             <ul class="navbar-nav ml-auto">
-              <li class="nav-item dropdown"><a class="nav-link dropdown-toggle active" id="homeDropdownMenuLink" href="index.html" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              <li class="nav-item dropdown"><a class="nav-link dropdown-toggle active" id="homeDropdownMenuLink" href="./" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                    Home</a>
-                <div class="dropdown-menu" aria-labelledby="homeDropdownMenuLink"><a class="dropdown-item" href="index.html">Rooms</a><a class="dropdown-item" href="index-2.html">Restaurants</a><a class="dropdown-item" href="index-3.html">Travel</a><a class="dropdown-item" href="index-4.html">Real Estate <span class="badge badge-info-light ml-1 mt-n1">New</span></a></div>
+                <div class="dropdown-menu" aria-labelledby="homeDropdownMenuLink"><a class="dropdown-item" href="./">Rooms</a><a class="dropdown-item" href="index-2.html">Restaurants</a><a class="dropdown-item" href="index-3.html">Travel</a><a class="dropdown-item" href="index-4.html">Real Estate <span class="badge badge-info-light ml-1 mt-n1">New</span></a></div>
               </li>
               <!-- Megamenu-->
               <li class="nav-item dropdown position-static"><a class="nav-link dropdown-toggle" href="#" data-toggle="dropdown">Template</a>
@@ -72,7 +72,7 @@
                           <!-- Megamenu list-->
                           <h6 class="text-uppercase">Homepage</h6>
                           <ul class="megamenu-list list-unstyled">
-                            <li class="megamenu-list-item"><a class="megamenu-list-link" href="index.html">Rooms   </a></li>
+                            <li class="megamenu-list-item"><a class="megamenu-list-link" href="./">Rooms   </a></li>
                             <li class="megamenu-list-item"><a class="megamenu-list-link" href="index-2.html">Restaurants   </a></li>
                             <li class="megamenu-list-item"><a class="megamenu-list-link" href="index-3.html">Travel   </a></li>
                             <li class="megamenu-list-item"><a class="megamenu-list-link" href="index-4.html">Real estate <span class="badge badge-info-light ml-1">New</span>   </a></li>
@@ -202,7 +202,7 @@
               <!-- /Megamenu end-->
               <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a>
               </li>
-              <li class="nav-item dropdown"><a class="nav-link dropdown-toggle " id="docsDropdownMenuLink" href="index.html" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              <li class="nav-item dropdown"><a class="nav-link dropdown-toggle " id="docsDropdownMenuLink" href="./" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                    Docs</a>
                 <div class="dropdown-menu dropdown-menu-right" aria-labelledby="docsDropdownMenuLink">
                   <h6 class="dropdown-header font-weight-normal">Documentation</h6><a class="dropdown-item" href="docs/docs-introduction.html">Introduction </a><a class="dropdown-item" href="docs/docs-directory-structure.html">Directory structure </a><a class="dropdown-item" href="docs/docs-gulp.html">Gulp </a><a class="dropdown-item" href="docs/docs-customizing-css.html">Customizing CSS </a><a class="dropdown-item" href="docs/docs-credits.html">Credits </a><a class="dropdown-item" href="docs/docs-changelog.html">Changelog </a>
@@ -724,7 +724,7 @@
             <div class="col-lg-2 col-md-6 mb-5 mb-lg-0">
               <h6 class="text-uppercase text-dark mb-3">Rentals</h6>
               <ul class="list-unstyled">
-                <li><a class="text-muted" href="index.html">Rooms     </a></li>
+                <li><a class="text-muted" href="./">Rooms     </a></li>
                 <li><a class="text-muted" href="category-rooms.html">Map on top     </a></li>
                 <li><a class="text-muted" href="category-2-rooms.html">Side map     </a></li>
                 <li><a class="text-muted" href="category-3-rooms.html">No map     </a></li>

@@ -33,9 +33,9 @@ $(function () {
             $(this).fadeOut(300, cb);
         }
     }
-    $('#bookingDate').dateRangePicker(dateRangeConfig)
+   $('#bookingDate').dateRangePicker(dateRangeConfig)
         .bind('datepicker-opened', function () {
-            /* This event will be triggered after date range picker open animation */
-            //$('.date-picker-wrapper').css('top', 0);
+             //This event will be triggered after date range picker open animation 
+            $('.date-picker-wrapper').css('top', 0);
         });
 })
